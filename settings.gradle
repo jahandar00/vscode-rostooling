@@ -1,0 +1,3 @@
+include 'de.fraunhofer.ipa.ros.xtext'
+include 'de.fraunhofer.ipa.ros.xtext.ide'
+include 'vscode-extension'
