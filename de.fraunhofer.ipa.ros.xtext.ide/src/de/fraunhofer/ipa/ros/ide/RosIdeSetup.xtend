@@ -13,8 +13,9 @@ import org.eclipse.xtext.util.Modules2
  */
 class RosIdeSetup extends RosStandaloneSetup {
 
-    override createInjector() {
-        Guice.createInjector(Modules2.mixin(new RosRuntimeModule, new RosIdeModule))
+    @Override
+    public Injector createInjector() {
+        return Guice.createInjector(Modules2.mixin(new RosRuntimeModule, new RosIdeModule))
     }
 
 }

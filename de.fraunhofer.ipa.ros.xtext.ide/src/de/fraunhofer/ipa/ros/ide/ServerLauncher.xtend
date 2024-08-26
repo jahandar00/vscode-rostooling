@@ -1,4 +1,4 @@
-package de.fraunhofer.ipa.ros.ide.launch;
+package de.fraunhofer.ipa.ros.ide;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
